@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "bmi-app",
-    "slug": "bmi-app",
+    "name": "DevPocket",
+    "slug": "devpocket-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "bmiapp",
+    "scheme": "devpocket",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.sharif0011.devpocketapp"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d31e4819-e1d9-468f-bfa5-1d977f4aa87e"
+      }
+    },
+    "owner": "sharif0011"
   }
 }
